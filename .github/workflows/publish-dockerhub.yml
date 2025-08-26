@@ -3,11 +3,13 @@ name: Publish Docker Hub
 on:
   push:
     branches: [ main ]
-    tags: [ 'v*.*.*' ]   # semver tags create release images too
+    tags: [ 'v*.*.*' ]   # optional: push versioned tags
+  pull_request:
+    branches: [ main ]   # run tests/build on PRs
 
 jobs:
   test:
-    name: Build & Test
+    name: Restore & Test (.NET)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,30 +26,35 @@ jobs:
   publish:
     name: Build & Push Images
     needs: test
+    # only push on main or tags (not on PR)
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
+    env:
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
     strategy:
+      fail-fast: false
       matrix:
         include:
           - name: authservice
             context: Portal/AuthService
             dockerfile: Portal/AuthService/Dockerfile
-            image: ${{ secrets.DOCKERHUB_USERNAME }}/fdms-authservice
+            image_suffix: fdms-authservice
           - name: employeeservice
             context: Portal/EmployeeService
             dockerfile: Portal/EmployeeService/Dockerfile
-            image: ${{ secrets.DOCKERHUB_USERNAME }}/fdms-employeeservice
+            image_suffix: fdms-employeeservice
           - name: documentservice
             context: Portal/DocumentService
             dockerfile: Portal/DocumentService/Dockerfile
-            image: ${{ secrets.DOCKERHUB_USERNAME }}/fdms-documentservice
+            image_suffix: fdms-documentservice
           - name: claimservice
             context: Portal/ClaimService
             dockerfile: Portal/ClaimService/Dockerfile
-            image: ${{ secrets.DOCKERHUB_USERNAME }}/fdms-claimservice
+            image_suffix: fdms-claimservice
           - name: apigateway
             context: Portal/CentralAPIGateway
             dockerfile: Portal/CentralAPIGateway/Dockerfile
-            image: ${{ secrets.DOCKERHUB_USERNAME }}/fdms-apigateway
+            image_suffix: fdms-apigateway
 
     steps:
       - uses: actions/checkout@v4
@@ -63,16 +70,21 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      # Build full image name using env secret + matrix suffix
+      - name: Compute image name
+        id: vars
+        run: echo "IMAGE=${DOCKERHUB_USERNAME}/${{ matrix.image_suffix }}" >> $GITHUB_OUTPUT
+
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ matrix.image }}
+          images: ${{ steps.vars.outputs.IMAGE }}
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=sha,format=short,prefix=sha-
-            type=ref,event=tag    # v1.2.3 -> :1.2.3
-            type=ref,event=branch # main -> :main
+            type=ref,event=tag
+            type=ref,event=branch
           labels: |
             org.opencontainers.image.source=${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
