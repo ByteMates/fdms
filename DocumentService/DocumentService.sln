@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentService", "DocumentService\DocumentService.csproj", "{EB51A567-46AD-4B26-8A92-287A8F790587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB51A567-46AD-4B26-8A92-287A8F790587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB51A567-46AD-4B26-8A92-287A8F790587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB51A567-46AD-4B26-8A92-287A8F790587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB51A567-46AD-4B26-8A92-287A8F790587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {205695CA-F3C0-467D-96B8-B99EA1EB818A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@CentralAPIGateway_HostAddress = http://localhost:5289
+
+GET {{CentralAPIGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

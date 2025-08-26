@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\dtos\\documentupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\dtos\\documentupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\dtos\\documentuploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\dtos\\documentuploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\services\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\services\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\documentservice\\documentservice\\migrations\\20250806090538_initcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB51A567-46AD-4B26-8A92-287A8F790587}|DocumentService\\DocumentService.csproj|solutionrelative:documentservice\\migrations\\20250806090538_initcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Controllers\\PingController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Controllers\\PingController.cs",
+              "RelativeToolTip": "DocumentService\\Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T10:09:56.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Services\\DocumentService.cs",
+              "RelativeToolTip": "DocumentService\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:48:17.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "DocumentService\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAArwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T10:20:11.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentUploadResponse.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\DTOs\\DocumentUploadResponse.cs",
+              "RelativeDocumentMoniker": "DocumentService\\DTOs\\DocumentUploadResponse.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\DTOs\\DocumentUploadResponse.cs",
+              "RelativeToolTip": "DocumentService\\DTOs\\DocumentUploadResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:46:47.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\DTOs\\DocumentUpdateRequest.cs",
+              "RelativeDocumentMoniker": "DocumentService\\DTOs\\DocumentUpdateRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\DTOs\\DocumentUpdateRequest.cs",
+              "RelativeToolTip": "DocumentService\\DTOs\\DocumentUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T10:00:35.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Program.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Program.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Program.cs",
+              "RelativeToolTip": "DocumentService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T10:56:05.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Services\\Interfaces\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Services\\Interfaces\\IDocumentService.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Services\\Interfaces\\IDocumentService.cs",
+              "RelativeToolTip": "DocumentService\\Services\\Interfaces\\IDocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:42:54.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Models\\Document.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Models\\Document.cs",
+              "RelativeToolTip": "DocumentService\\Models\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:34:36.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DocumentService\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T10:02:00.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\appsettings.json",
+              "RelativeDocumentMoniker": "DocumentService\\appsettings.json",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\appsettings.json",
+              "RelativeToolTip": "DocumentService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T10:12:54.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250806090538_initCreate.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Migrations\\20250806090538_initCreate.cs",
+              "RelativeDocumentMoniker": "DocumentService\\Migrations\\20250806090538_initCreate.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\DocumentService\\DocumentService\\Migrations\\20250806090538_initCreate.cs",
+              "RelativeToolTip": "DocumentService\\Migrations\\20250806090538_initCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T09:05:39.288Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

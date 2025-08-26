@@ -1,0 +1,53 @@
+# ===== Git =====
+.git
+.gitignore
+.gitattributes
+
+# ===== IDE / Editors =====
+**/.vs/
+**/.vscode/
+**/.idea/
+**/*.suo
+**/*.user
+
+# ===== OS junk =====
+**/.DS_Store
+**/Thumbs.db
+
+# ===== Build outputs (dotnet) =====
+**/bin/
+**/obj/
+**/out/
+**/publish/
+artifacts/
+
+# ===== Test outputs =====
+**/TestResults/
+**/*.coverage
+**/coverage*/
+**/coverage.*
+**/.nyc_output/
+
+# ===== Logs & temp =====
+**/*.log
+**/*.tmp
+**/*.tlog
+**/*.cache
+**/~$*
+
+# ===== NuGet / Packages =====
+**/packages/
+*.nupkg
+**/.nuget/packages/
+
+# ===== Node/Frontend (if present) =====
+**/node_modules/
+**/dist/
+**/.next/
+**/build/
+
+# ===== Env & local overrides =====
+.env
+.env.*
+!.env.example
+docker-compose.override.yml

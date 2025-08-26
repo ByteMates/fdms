@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\dtos\\adduserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dtos\\adduserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\dtos\\registeremployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dtos\\registeremployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\dtos\\removeuserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dtos\\removeuserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\authservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\authservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\models\\usersystemrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\usersystemrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\migrations\\20250725072549_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\migrations\\20250725072549_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\migrations\\20250725095931_optionalcnic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\migrations\\20250725095931_optionalcnic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A461BA4C-2D6E-4136-B7FA-60215525A6C5}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32AB9B-1075-4A17-A75A-0C6DDA8ED945}|AuthService.Tests\\AuthService.Tests.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice.tests\\authservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E32AB9B-1075-4A17-A75A-0C6DDA8ED945}|AuthService.Tests\\AuthService.Tests.csproj|solutionrelative:authservice.tests\\authservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32AB9B-1075-4A17-A75A-0C6DDA8ED945}|AuthService.Tests\\AuthService.Tests.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\authservice\\authservice.tests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E32AB9B-1075-4A17-A75A-0C6DDA8ED945}|AuthService.Tests\\AuthService.Tests.csproj|solutionrelative:authservice.tests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\UpdateUserRequest.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:15:09.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RemoveUserRoleRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\RemoveUserRoleRequest.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\RemoveUserRoleRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\RemoveUserRoleRequest.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\RemoveUserRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:22:02.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:27:12.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterEmployeeRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\RegisterEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\RegisterEmployeeRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\RegisterEmployeeRequest.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\RegisterEmployeeRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:24:35.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:27:33.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddUserRoleRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\AddUserRoleRequest.cs",
+              "RelativeDocumentMoniker": "AuthService\\DTOs\\AddUserRoleRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\DTOs\\AddUserRoleRequest.cs",
+              "RelativeToolTip": "AuthService\\DTOs\\AddUserRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:20:22.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:21:07.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.http",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\AuthService.http",
+              "RelativeDocumentMoniker": "AuthService\\AuthService.http",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\AuthService.http",
+              "RelativeToolTip": "AuthService\\AuthService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-22T21:42:09.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSystemRole.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Models\\UserSystemRole.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\UserSystemRole.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Models\\UserSystemRole.cs",
+              "RelativeToolTip": "AuthService\\Models\\UserSystemRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:20:41.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AuthService\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AuthService\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:19:33.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250725072549_initialCreate.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Migrations\\20250725072549_initialCreate.cs",
+              "RelativeDocumentMoniker": "AuthService\\Migrations\\20250725072549_initialCreate.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Migrations\\20250725072549_initialCreate.cs",
+              "RelativeToolTip": "AuthService\\Migrations\\20250725072549_initialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:25:49.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250725095931_optionalCNIC.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Migrations\\20250725095931_optionalCNIC.cs",
+              "RelativeDocumentMoniker": "AuthService\\Migrations\\20250725095931_optionalCNIC.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Migrations\\20250725095931_optionalCNIC.cs",
+              "RelativeToolTip": "AuthService\\Migrations\\20250725095931_optionalCNIC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:59:31.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AuthService\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:20:08.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\appsettings.json",
+              "RelativeToolTip": "AuthService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T07:22:13.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T07:27:55.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T09:35:27.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService.Tests\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "AuthService.Tests\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService.Tests\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "AuthService.Tests\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T11:12:45.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.Tests.csproj",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService.Tests\\AuthService.Tests.csproj",
+              "RelativeDocumentMoniker": "AuthService.Tests\\AuthService.Tests.csproj",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService.Tests\\AuthService.Tests.csproj",
+              "RelativeToolTip": "AuthService.Tests\\AuthService.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-16T14:06:56.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\PingController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\AuthService\\AuthService\\Controllers\\PingController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T10:13:11.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

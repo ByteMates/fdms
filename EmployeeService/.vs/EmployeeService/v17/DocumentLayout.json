@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A244F0-DE99-4107-AC11-003C5CC5EC39}|EmployeeServiceTests\\EmployeeServiceTests.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservicetests\\services\\employeeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A244F0-DE99-4107-AC11-003C5CC5EC39}|EmployeeServiceTests\\EmployeeServiceTests.csproj|solutionrelative:employeeservicetests\\services\\employeeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A244F0-DE99-4107-AC11-003C5CC5EC39}|EmployeeServiceTests\\EmployeeServiceTests.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservicetests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A244F0-DE99-4107-AC11-003C5CC5EC39}|EmployeeServiceTests\\EmployeeServiceTests.csproj|solutionrelative:employeeservicetests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\dtos\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\dtos\\employeeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\dtos\\employeecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\dtos\\employeecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\employeeservice\\employeeservice\\migrations\\20250731103013_initcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F836BF69-F3E8-4E87-B8E2-8ABBE274DDF2}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\migrations\\20250731103013_initcreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Controllers\\PingController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Controllers\\PingController.cs",
+              "RelativeToolTip": "EmployeeService\\Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:05:09.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250731103013_initCreation.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Migrations\\20250731103013_initCreation.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Migrations\\20250731103013_initCreation.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Migrations\\20250731103013_initCreation.cs",
+              "RelativeToolTip": "EmployeeService\\Migrations\\20250731103013_initCreation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T10:30:13.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeService\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:41:27.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeService\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:01:45.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeUpdateDto.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\DTOs\\EmployeeUpdateDto.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\DTOs\\EmployeeUpdateDto.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\DTOs\\EmployeeUpdateDto.cs",
+              "RelativeToolTip": "EmployeeService\\DTOs\\EmployeeUpdateDto.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:01:01.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeService\\appsettings.json",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\appsettings.json",
+              "RelativeToolTip": "EmployeeService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T08:23:11.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Program.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Program.cs",
+              "RelativeToolTip": "EmployeeService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T08:20:51.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeServiceTests.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeServiceTests\\Services\\EmployeeServiceTests.cs",
+              "RelativeDocumentMoniker": "EmployeeServiceTests\\Services\\EmployeeServiceTests.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeServiceTests\\Services\\EmployeeServiceTests.cs",
+              "RelativeToolTip": "EmployeeServiceTests\\Services\\EmployeeServiceTests.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvx0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T10:38:47.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeServiceTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "EmployeeServiceTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeServiceTests\\UnitTest1.cs",
+              "RelativeToolTip": "EmployeeServiceTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T10:36:04.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "EmployeeService\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:00:24.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Models\\Employee.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeService\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T07:40:53.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeCreateDto.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\DTOs\\EmployeeCreateDto.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\DTOs\\EmployeeCreateDto.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\DTOs\\EmployeeCreateDto.cs",
+              "RelativeToolTip": "EmployeeService\\DTOs\\EmployeeCreateDto.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T08:58:42.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\EmployeeService\\EmployeeService\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EmployeeService\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T08:20:15.131Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

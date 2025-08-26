@@ -1,0 +1,64 @@
+name: gov-employee-suite
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=${SA_PASSWORD:-Your_strong_password123}
+    ports: ["1433:1433"]
+    healthcheck:
+      test: ["CMD","/opt/mssql-tools18/bin/sqlcmd","-S","localhost","-U","sa","-P","${SA_PASSWORD:-Your_strong_password123}","-Q","SELECT 1","-C"]
+      interval: 10s
+      retries: 10
+    volumes:
+      - mssqldata:/var/opt/mssql
+
+  authservice:
+    build: ./AuthService/AuthService
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__Default=Server=sqlserver;Database=AuthDbN;User Id=sa;Password=${SA_PASSWORD};TrustServerCertificate=true;Encrypt=false
+    depends_on: [sqlserver]
+    ports: ["7123:8080"]
+
+  employeeservice:
+    build: ./EmployeeService/EmployeeService
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__Default=Server=sqlserver;Database=EmployeeDBN;User Id=sa;Password=${SA_PASSWORD};TrustServerCertificate=true;Encrypt=false
+    depends_on: [sqlserver, authservice]
+    ports: ["7141:8080"]
+
+  documentservice:
+    build: ./DocumentService/DocumentService
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__Default=Server=sqlserver;Database=DocDBN;User Id=sa;Password=${SA_PASSWORD};TrustServerCertificate=true;Encrypt=false
+    volumes:
+      - ./data/docs:/data/docs
+    depends_on: [sqlserver, authservice]
+    ports: ["7133:8080"]
+
+  claimservice:
+    build: ./ClaimService/ClaimService
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ConnectionStrings__Default=Server=sqlserver;Database=ClaimDBN;User Id=sa;Password=${SA_PASSWORD};TrustServerCertificate=true;Encrypt=false
+    depends_on: [sqlserver, authservice, employeeservice]
+    ports: ["7151:8080"]
+    
+  apigateway:
+    build: ./CentralAPIGateway/CentralAPIGateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    depends_on:
+      - authservice
+      - employeeservice
+      - documentservice
+      - claimservice
+    ports:
+      - "7104:8080"
+
+volumes:
+  mssqldata:

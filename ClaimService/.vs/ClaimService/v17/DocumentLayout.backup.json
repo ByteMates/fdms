@@ -1,0 +1,521 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\common\\errors\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\common\\errors\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197CE016-3676-49FE-B0A6-43D8C5AF2ACD}|ClaimServiceTest\\ClaimServiceTest.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservicetest\\claimservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197CE016-3676-49FE-B0A6-43D8C5AF2ACD}|ClaimServiceTest\\ClaimServiceTest.csproj|solutionrelative:claimservicetest\\claimservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197CE016-3676-49FE-B0A6-43D8C5AF2ACD}|ClaimServiceTest\\ClaimServiceTest.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservicetest\\helper\\testappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197CE016-3676-49FE-B0A6-43D8C5AF2ACD}|ClaimServiceTest\\ClaimServiceTest.csproj|solutionrelative:claimservicetest\\helper\\testappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\dtos\\createclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\dtos\\createclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197CE016-3676-49FE-B0A6-43D8C5AF2ACD}|ClaimServiceTest\\ClaimServiceTest.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservicetest\\helper\\rowversiontestinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197CE016-3676-49FE-B0A6-43D8C5AF2ACD}|ClaimServiceTest\\ClaimServiceTest.csproj|solutionrelative:claimservicetest\\helper\\rowversiontestinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\domain\\entities\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\domain\\entities\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\domain\\enums\\claimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\domain\\enums\\claimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\handlers\\authforwardinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\handlers\\authforwardinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\clients\\employeeserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\clients\\employeeserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\interfaces\\iemployeeserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\interfaces\\iemployeeserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\options\\cachingoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\options\\cachingoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\dtos\\transitionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\dtos\\transitionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\dtos\\transitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\dtos\\transitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\dtos\\updateclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\dtos\\updateclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\domain\\entities\\claimevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\domain\\entities\\claimevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\helpers\\policyconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\helpers\\policyconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\domain\\enums\\claimroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\domain\\enums\\claimroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\helpers\\rolenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\helpers\\rolenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\helpers\\authforwardinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\helpers\\authforwardinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\helpers\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\helpers\\idgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\interfaces\\idocumentserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\interfaces\\idocumentserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\application\\interfaces\\iidgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\application\\interfaces\\iidgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\domain\\entities\\appsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\domain\\entities\\appsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|c:\\taha siddiqui\\work finance\\workfd\\new work\\claimservice\\claimservice\\domain\\enums\\claimstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01C73E1-EFB2-4A45-8655-E61C2BFF3EA0}|ClaimService\\ClaimService.csproj|solutionrelative:claimservice\\domain\\enums\\claimstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RowVersionTestInterceptor.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimServiceTest\\Helper\\RowVersionTestInterceptor.cs",
+              "RelativeDocumentMoniker": "ClaimServiceTest\\Helper\\RowVersionTestInterceptor.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimServiceTest\\Helper\\RowVersionTestInterceptor.cs",
+              "RelativeToolTip": "ClaimServiceTest\\Helper\\RowVersionTestInterceptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T14:19:25.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimServiceTests.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimServiceTest\\ClaimServiceTests.cs",
+              "RelativeDocumentMoniker": "ClaimServiceTest\\ClaimServiceTests.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimServiceTest\\ClaimServiceTests.cs",
+              "RelativeToolTip": "ClaimServiceTest\\ClaimServiceTests.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T13:56:06.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Common\\Errors\\AppException.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\Common\\Errors\\AppException.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Common\\Errors\\AppException.cs",
+              "RelativeToolTip": "ClaimService\\Application\\Common\\Errors\\AppException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T12:33:56.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Program.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Program.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Program.cs",
+              "RelativeToolTip": "ClaimService\\Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:07:53.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClaimService.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Services\\ClaimService.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Services\\ClaimService.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Services\\ClaimService.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Services\\ClaimService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv3oAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:01:44.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateClaimDto.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\CreateClaimDto.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\DTOs\\CreateClaimDto.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\CreateClaimDto.cs",
+              "RelativeToolTip": "ClaimService\\Application\\DTOs\\CreateClaimDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:22:37.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "ClaimService\\Application\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T12:36:07.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestAppDbContext.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimServiceTest\\Helper\\TestAppDbContext.cs",
+              "RelativeDocumentMoniker": "ClaimServiceTest\\Helper\\TestAppDbContext.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimServiceTest\\Helper\\TestAppDbContext.cs",
+              "RelativeToolTip": "ClaimServiceTest\\Helper\\TestAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T21:26:42.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Entities\\Claim.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Domain\\Entities\\Claim.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Entities\\Claim.cs",
+              "RelativeToolTip": "ClaimService\\Domain\\Entities\\Claim.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:19:12.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClaimType.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Enums\\ClaimType.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Domain\\Enums\\ClaimType.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Enums\\ClaimType.cs",
+              "RelativeToolTip": "ClaimService\\Domain\\Enums\\ClaimType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:18:00.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthForwardingHandler.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Handlers\\AuthForwardingHandler.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Handlers\\AuthForwardingHandler.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Handlers\\AuthForwardingHandler.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Handlers\\AuthForwardingHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T11:34:33.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CachingOptions.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Options\\CachingOptions.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Options\\CachingOptions.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Options\\CachingOptions.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Options\\CachingOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T11:33:50.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmployeeServiceClient.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IEmployeeServiceClient.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\Interfaces\\IEmployeeServiceClient.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IEmployeeServiceClient.cs",
+              "RelativeToolTip": "ClaimService\\Application\\Interfaces\\IEmployeeServiceClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:36:48.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeServiceClient.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Clients\\EmployeeServiceClient.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Clients\\EmployeeServiceClient.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Clients\\EmployeeServiceClient.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Clients\\EmployeeServiceClient.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwEwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:59:23.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateClaimDto.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\UpdateClaimDto.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\DTOs\\UpdateClaimDto.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\UpdateClaimDto.cs",
+              "RelativeToolTip": "ClaimService\\Application\\DTOs\\UpdateClaimDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:23:17.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "ClaimService\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAArwGUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T09:57:29.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClaimEvent.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Entities\\ClaimEvent.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Domain\\Entities\\ClaimEvent.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Entities\\ClaimEvent.cs",
+              "RelativeToolTip": "ClaimService\\Domain\\Entities\\ClaimEvent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:21:08.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\appsettings.json",
+              "RelativeDocumentMoniker": "ClaimService\\appsettings.json",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\appsettings.json",
+              "RelativeToolTip": "ClaimService\\appsettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T10:57:34.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TransitionRequest.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\TransitionRequest.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\DTOs\\TransitionRequest.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\TransitionRequest.cs",
+              "RelativeToolTip": "ClaimService\\Application\\DTOs\\TransitionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T08:40:04.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TransitionDto.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\TransitionDto.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\DTOs\\TransitionDto.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\DTOs\\TransitionDto.cs",
+              "RelativeToolTip": "ClaimService\\Application\\DTOs\\TransitionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:23:44.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClaimRoles.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Enums\\ClaimRoles.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Domain\\Enums\\ClaimRoles.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Enums\\ClaimRoles.cs",
+              "RelativeToolTip": "ClaimService\\Domain\\Enums\\ClaimRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T09:04:25.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoleNames.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\RoleNames.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Helpers\\RoleNames.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\RoleNames.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Helpers\\RoleNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T09:05:59.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PolicyConstants.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\PolicyConstants.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Helpers\\PolicyConstants.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\PolicyConstants.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Helpers\\PolicyConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T09:41:22.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IClaimService.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IClaimService.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\Interfaces\\IClaimService.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IClaimService.cs",
+              "RelativeToolTip": "ClaimService\\Application\\Interfaces\\IClaimService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:40:16.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IdGenerator.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\IdGenerator.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Helpers\\IdGenerator.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\IdGenerator.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Helpers\\IdGenerator.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:57:01.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthForwardingHandler.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\AuthForwardingHandler.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Helpers\\AuthForwardingHandler.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Helpers\\AuthForwardingHandler.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Helpers\\AuthForwardingHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:58:33.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IDocumentServiceClient.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IDocumentServiceClient.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\Interfaces\\IDocumentServiceClient.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IDocumentServiceClient.cs",
+              "RelativeToolTip": "ClaimService\\Application\\Interfaces\\IDocumentServiceClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:40:02.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IIdGenerator.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IIdGenerator.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Application\\Interfaces\\IIdGenerator.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Application\\Interfaces\\IIdGenerator.cs",
+              "RelativeToolTip": "ClaimService\\Application\\Interfaces\\IIdGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:36:23.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "ClaimService\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:24:36.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppSequence.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Entities\\AppSequence.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Domain\\Entities\\AppSequence.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Entities\\AppSequence.cs",
+              "RelativeToolTip": "ClaimService\\Domain\\Entities\\AppSequence.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:22:05.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClaimStatus.cs",
+              "DocumentMoniker": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Enums\\ClaimStatus.cs",
+              "RelativeDocumentMoniker": "ClaimService\\Domain\\Enums\\ClaimStatus.cs",
+              "ToolTip": "C:\\Taha Siddiqui\\Work Finance\\WorkFD\\New Work\\ClaimService\\ClaimService\\Domain\\Enums\\ClaimStatus.cs",
+              "RelativeToolTip": "ClaimService\\Domain\\Enums\\ClaimStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:17:14.731Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
