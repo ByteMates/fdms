@@ -156,3 +156,5 @@ C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimServiceTest\obj\
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimServiceTest\obj\Debug\net8.0\ClaimServiceTest.pdb
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimServiceTest\obj\Debug\net8.0\ClaimServiceTest.genruntimeconfig.cache
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimServiceTest\obj\Debug\net8.0\ref\ClaimServiceTest.dll
+C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimServiceTest\bin\Debug\net8.0\appsettings.Docker.json
+C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimServiceTest\obj\Debug\net8.0\ClaimServiceTest.sourcelink.json

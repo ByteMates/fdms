@@ -140,4 +140,6 @@ C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\obj\Debu
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\bin\Debug\net8.0\appsettings.Docker.json
+C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\obj\Debug\net8.0\ClaimService.sourcelink.json
 C:\Taha Siddiqui\Work Finance\WorkFD\New Work\ClaimService\ClaimService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
