@@ -159,43 +159,43 @@ namespace ClaimServiceTest
         }
 
         // -------------------- TEST 4 --------------------
-        //[Fact]
-        //public async Task GenericTransition_approve_without_amount_throws_ValidationException()
-        //{
-        //    using var db = NewDb();
-        //    var svc = NewService(db, out _, out _);
+        [Fact]
+        public async Task GenericTransition_approve_without_amount_throws_ValidationException()
+        {
+            using var db = NewDb();
+            var svc = NewService(db, out _, out _);
 
-        //    // Seed a claim already in UnderSMBReview with a non-null RowVersion
-        //    var c = new ClaimService.Domain.Entities.Claim
-        //    {
-        //        ClaimId = "CLM-0004",
-        //        EmployeeId = "EMP-4",
-        //        ClaimType = 0,
-        //        ClaimDateUtc = DateTime.UtcNow.Date,
-        //        AmountClaimed = 5000m,
-        //        Status = ClaimStatus.UnderSMBReview,
-        //        RowVersion = new byte[] { 1 },
-        //        CreatedByUserId = "maker",
-        //        CreatedAtUtc = DateTime.UtcNow,
-        //        LastUpdatedAtUtc = DateTime.UtcNow
-        //    };
-        //    db.Claims.Add(c);
-        //    await db.SaveChangesAsync();
+            // Seed a claim already in UnderSMBReview with a non-null RowVersion
+            var c = new ClaimService.Domain.Entities.Claim
+            {
+                ClaimId = "CLM-0004",
+                EmployeeId = "EMP-4",
+                ClaimType = 0,
+                ClaimDateUtc = DateTime.UtcNow.Date,
+                AmountClaimed = 5000m,
+                Status = ClaimStatus.UnderSMBReview,
+                RowVersion = new byte[] { 1 },
+                CreatedByUserId = "maker",
+                CreatedAtUtc = DateTime.UtcNow,
+                LastUpdatedAtUtc = DateTime.UtcNow
+            };
+            db.Claims.Add(c);
+            await db.SaveChangesAsync();
 
-        //    // User with an allowed role (ANY-of check in your rules)
-        //    var user = MakeUser(PolicyConstants.SmbDecide);
+            // User with an allowed role (ANY-of check in your rules)
+            var user = MakeUser(PolicyConstants.SmbDecide);
 
-        //    var act = () => svc.GenericTransitionAsync(
-        //        claimId: "CLM-0004",
-        //        to: ClaimStatus.Approved,
-        //        remarks: "approve",
-        //        amountApproved: null,           // <-- missing -> should fail validation
-        //        actorUserId: "approver",
-        //        user: user,
-        //        ct: CancellationToken.None);
+            var act = () => svc.GenericTransitionAsync(
+                claimId: "CLM-0004",
+                to: ClaimStatus.Approved,
+                remarks: "approve",
+                amountApproved: null,           // <-- missing -> should fail validation
+                actorUserId: "approver",
+                user: user,
+                ct: CancellationToken.None);
 
-        //    await act.Should().ThrowAsync<ValidationException>()
-        //        .Where(v => v.Errors.ContainsKey("amountApproved"));
-        //}
+            await act.Should().ThrowAsync<ValidationException>()
+                .Where(v => v.Errors.ContainsKey("amountApproved"));
+        }
     }
 }
