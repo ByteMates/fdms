@@ -39,13 +39,31 @@ jobs:
         run: |
           find . -name "*.sln" -maxdepth 2 -print0 | xargs -0 -I{} dotnet restore "{}"
 
+      # Build is optional since 'dotnet test' builds by default, but building improves logs
+      - name: Build (Release)
+        run: |
+          set -e
+          mapfile -t slns < <(find . -name "*.sln" -maxdepth 2)
+          if [ ${#slns[@]} -gt 0 ]; then
+            for s in "${slns[@]}"; do
+              echo "Building $s"
+              dotnet build "$s" -c Release --no-restore
+            done
+          else
+            echo "No .sln files found, skipping explicit build."
+          fi
+
       - name: Run tests (TRX + coverage)
         run: |
           set -e
           mapfile -t tests < <(find . -name "*Test.csproj")
+          if [ ${#tests[@]} -eq 0 ]; then
+            echo "No *Test.csproj found."
+            exit 0
+          fi
           for t in "${tests[@]}"; do
             echo "Testing $t"
-            dotnet test "$t" -c Release --no-build \
+            dotnet test "$t" -c Release \
               --logger "trx;LogFileName=test-results.trx" \
               /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
           done
@@ -88,7 +106,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build_images
     env:
-      SA_PASSWORD: ${{ secrets.SA_PASSWORD }}   # add this secret if you plan to run smoke
+      SA_PASSWORD: ${{ secrets.SA_PASSWORD }}   # add this secret in repo Settings → Secrets → Actions
     steps:
       - uses: actions/checkout@v4
 
@@ -114,7 +132,7 @@ jobs:
             echo "FAIL: $name - $url"; return 1
           }
 
-          # Prefer gateway if it exists on 7104; else hit services directly
+          # Prefer gateway if present on 7104; else hit services directly
           if curl -fsS http://localhost:7104/claims/ping >/dev/null 2>&1; then
             try_curl http://localhost:7104/auth/ping auth
             try_curl http://localhost:7104/employees/ping employees
