@@ -1,0 +1,40 @@
+version: "3.9"
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: fdms-sql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=${SA_PASSWORD}
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+
+  authservice:
+    image: ${DOCKERHUB_USERNAME}/fdms-authservice:latest
+    depends_on: [sqlserver]
+    ports: ["7123:8080"]
+
+  employeeservice:
+    image: ${DOCKERHUB_USERNAME}/fdms-employeeservice:latest
+    depends_on: [sqlserver, authservice]
+    ports: ["7141:8080"]
+
+  documentservice:
+    image: ${DOCKERHUB_USERNAME}/fdms-documentservice:latest
+    depends_on: [sqlserver, authservice]
+    ports: ["7133:8080"]
+
+  claimservice:
+    image: ${DOCKERHUB_USERNAME}/fdms-claimservice:latest
+    depends_on: [sqlserver, authservice, employeeservice, documentservice]
+    ports: ["7151:8080"]
+
+  apigateway:
+    image: ${DOCKERHUB_USERNAME}/fdms-apigateway:latest
+    depends_on: [authservice, employeeservice, documentservice, claimservice]
+    ports: ["7104:8080"]
+
+volumes:
+  mssql-data:
