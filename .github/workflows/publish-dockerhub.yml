@@ -78,7 +78,7 @@ jobs:
           - name: apigateway
             image_suffix: fdms-apigateway
             context: CentralAPIGateway
-            dockerfile: CentralAPIGateway/Dockerfile
+            dockerfile: CentralAPIGateway/CentralAPIGateway/Dockerfile
 
     steps:
       - uses: actions/checkout@v4
