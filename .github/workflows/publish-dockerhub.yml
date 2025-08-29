@@ -70,14 +70,24 @@ jobs:
         include:
           - name: authservice
             image_suffix: fdms-authservice
+            context: AuthService/AuthService
+            dockerfile: AuthService/AuthService/Dockerfile
           - name: employeeservice
             image_suffix: fdms-employeeservice
+            context: EmployeeService/EmployeeService
+            dockerfile: EmployeeService/EmployeeService/Dockerfile
           - name: documentservice
             image_suffix: fdms-documentservice
+            context: DocumentService/DocumentService
+            dockerfile: DocumentService/DocumentService/Dockerfile
           - name: claimservice
             image_suffix: fdms-claimservice
+            context: ClaimService/ClaimService
+            dockerfile: ClaimService/ClaimService/Dockerfile
           - name: apigateway
             image_suffix: fdms-apigateway
+            context: CentralAPIGateway
+            dockerfile: CentralAPIGateway/Dockerfile
 
     steps:
       - uses: actions/checkout@v4
