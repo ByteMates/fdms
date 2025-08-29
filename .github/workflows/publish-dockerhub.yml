@@ -58,10 +58,9 @@ jobs:
           path: '**/TestResults/*.trx'
 
 
-  publish:
+   publish:
     name: Build & Push Images
     needs: test
-    # only push on main or tags (not on PR)
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     env:
@@ -71,28 +70,24 @@ jobs:
       matrix:
         include:
           - name: authservice
-            context: Portal/AuthService
-            dockerfile: Portal/AuthService/Dockerfile
             image_suffix: fdms-authservice
           - name: employeeservice
-            context: Portal/EmployeeService
-            dockerfile: Portal/EmployeeService/Dockerfile
             image_suffix: fdms-employeeservice
           - name: documentservice
-            context: Portal/DocumentService
-            dockerfile: Portal/DocumentService/Dockerfile
             image_suffix: fdms-documentservice
           - name: claimservice
-            context: Portal/ClaimService
-            dockerfile: Portal/ClaimService/Dockerfile
             image_suffix: fdms-claimservice
           - name: apigateway
-            context: Portal/CentralAPIGateway
-            dockerfile: Portal/CentralAPIGateway/Dockerfile
             image_suffix: fdms-apigateway
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Debug repo layout (top 3 levels)
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 3 -type d -print | sort
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -105,10 +100,69 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # Build full image name using env secret + matrix suffix
       - name: Compute image name
         id: vars
         run: echo "IMAGE=${DOCKERHUB_USERNAME}/${{ matrix.image_suffix }}" >> $GITHUB_OUTPUT
+
+      # 🔍 Resolve the correct build context and Dockerfile for each service
+      - name: Resolve build paths
+        id: path
+        shell: bash
+        run: |
+          set -euo pipefail
+          NAME="${{ matrix.name }}"
+
+          # Candidate dirs per service (first existing wins)
+          pick_first_dir() {
+            for d in "$@"; do
+              if [ -d "$d" ]; then echo "$d"; return 0; fi
+            done
+            return 1
+          }
+
+          case "$NAME" in
+            authservice)
+              CTX=$(pick_first_dir "Portal/AuthService/AuthService" "Portal/AuthService" "AuthService")
+              ;;
+            employeeservice)
+              CTX=$(pick_first_dir "Portal/EmployeeService/EmployeeService" "Portal/EmployeeService" "EmployeeService")
+              ;;
+            documentservice)
+              CTX=$(pick_first_dir "Portal/DocumentService/DocumentService" "Portal/DocumentService" "DocumentService")
+              ;;
+            claimservice)
+              CTX=$(pick_first_dir "Portal/ClaimService/ClaimService" "Portal/ClaimService" "ClaimService")
+              ;;
+            apigateway)
+              # Gateway folder was renamed to CentralAPIGateway in your notes; fall back to ApiGateway
+              CTX=$(pick_first_dir "Portal/CentralAPIGateway" "Portal/ApiGateway" "CentralAPIGateway" "ApiGateway")
+              ;;
+            *)
+              echo "Unknown service: $NAME"; exit 1;;
+          esac
+
+          if [ -z "${CTX:-}" ]; then
+            echo "Could not find build context for $NAME. Repo layout:" >&2
+            find . -maxdepth 4 -type d -print >&2
+            exit 1
+          fi
+
+          # Dockerfile candidates inside the chosen context and one level up
+          DF=""
+          for f in "$CTX/Dockerfile" "$(dirname "$CTX")/Dockerfile"; do
+            [ -f "$f" ] && DF="$f" && break
+          done
+
+          if [ -z "$DF" ]; then
+            echo "No Dockerfile found for $NAME under $CTX (or parent). Repo layout:" >&2
+            find "$CTX" -maxdepth 2 -type f -print >&2 || true
+            exit 1
+          fi
+
+          echo "context=$CTX" >> $GITHUB_OUTPUT
+          echo "dockerfile=$DF" >> $GITHUB_OUTPUT
+          echo "Using context: $CTX"
+          echo "Using Dockerfile: $DF"
 
       - name: Docker meta
         id: meta
@@ -127,8 +181,8 @@ jobs:
       - name: Build & Push
         uses: docker/build-push-action@v6
         with:
-          context: ${{ matrix.context }}
-          file: ${{ matrix.dockerfile }}
+          context: ${{ steps.path.outputs.context }}
+          file: ${{ steps.path.outputs.dockerfile }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
