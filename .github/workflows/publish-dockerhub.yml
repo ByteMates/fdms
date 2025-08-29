@@ -16,12 +16,47 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-      - name: Restore
-        run: dotnet restore
-      - name: Build
-        run: dotnet build --no-restore -c Release
-      - name: Test
-        run: dotnet test --no-build -c Release --logger "trx;LogFileName=test-results.trx"
+      - name: Restore/Build/Test (auto-detect)
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s globstar nullglob
+          SLN=(**/*.sln)
+          if [ ${#SLN[@]} -gt 0 ]; then
+            echo "Using solution: ${SLN[0]}"
+            dotnet restore "${SLN[0]}"
+            dotnet build "${SLN[0]}" -c Release --no-restore
+            dotnet test  "${SLN[0]}" -c Release --no-build --logger "trx;LogFileName=test-results.trx"
+          else
+            echo "No .sln found; restoring/building each project"
+            PROJS=(**/*.csproj)
+            for p in "${PROJS[@]}"; do
+              echo "Restore $p"
+              dotnet restore "$p"
+            done
+            for p in "${PROJS[@]}"; do
+              echo "Build   $p"
+              dotnet build "$p" -c Release --no-restore
+            done
+            echo "Discovering test projects"
+            TESTPROJS=()
+            while IFS= read -r -d '' f; do TESTPROJS+=("$f"); done < <(grep -rlZ "<IsTestProject>true</IsTestProject>" -- **/*.csproj || true)
+            if [ ${#TESTPROJS[@]} -gt 0 ]; then
+              for t in "${TESTPROJS[@]}"; do
+                echo "Test    $t"
+                dotnet test "$t" -c Release --no-build --logger "trx;LogFileName=test-results.trx"
+              done
+            else
+              echo "No test projects found; skipping dotnet test"
+            fi
+          fi
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: '**/TestResults/*.trx'
+
 
   publish:
     name: Build & Push Images
