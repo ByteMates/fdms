@@ -3,7 +3,7 @@ name: Publish Docker Hub
 on:
   push:
     branches: [ main ]
-    tags: [ 'v*.*.*' ]   # optional: push versioned tags
+    tags: [ 'v*.*.*' ]   # optional: push versioned tags like v1.2.3
   pull_request:
     branches: [ main ]   # run tests/build on PRs
 
@@ -57,11 +57,10 @@ jobs:
           name: test-results
           path: '**/TestResults/*.trx'
 
-
-   publish:
+  publish:
     name: Build & Push Images
     needs: test
-    if: github.event_name == 'push'
+    if: github.event_name == 'push'   # don't push on PRs
     runs-on: ubuntu-latest
     env:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
@@ -104,7 +103,7 @@ jobs:
         id: vars
         run: echo "IMAGE=${DOCKERHUB_USERNAME}/${{ matrix.image_suffix }}" >> $GITHUB_OUTPUT
 
-      # 🔍 Resolve the correct build context and Dockerfile for each service
+      # Resolve correct build context + Dockerfile based on actual repo layout
       - name: Resolve build paths
         id: path
         shell: bash
@@ -112,7 +111,6 @@ jobs:
           set -euo pipefail
           NAME="${{ matrix.name }}"
 
-          # Candidate dirs per service (first existing wins)
           pick_first_dir() {
             for d in "$@"; do
               if [ -d "$d" ]; then echo "$d"; return 0; fi
@@ -134,7 +132,6 @@ jobs:
               CTX=$(pick_first_dir "Portal/ClaimService/ClaimService" "Portal/ClaimService" "ClaimService")
               ;;
             apigateway)
-              # Gateway folder was renamed to CentralAPIGateway in your notes; fall back to ApiGateway
               CTX=$(pick_first_dir "Portal/CentralAPIGateway" "Portal/ApiGateway" "CentralAPIGateway" "ApiGateway")
               ;;
             *)
@@ -147,14 +144,13 @@ jobs:
             exit 1
           fi
 
-          # Dockerfile candidates inside the chosen context and one level up
           DF=""
           for f in "$CTX/Dockerfile" "$(dirname "$CTX")/Dockerfile"; do
             [ -f "$f" ] && DF="$f" && break
           done
 
-          if [ -z "$DF" ]; then
-            echo "No Dockerfile found for $NAME under $CTX (or parent). Repo layout:" >&2
+          if [ -z "$DF" ] ; then
+            echo "No Dockerfile found for $NAME under $CTX (or parent). Repo files:" >&2
             find "$CTX" -maxdepth 2 -type f -print >&2 || true
             exit 1
           fi
