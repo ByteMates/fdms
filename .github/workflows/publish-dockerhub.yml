@@ -3,9 +3,9 @@ name: Publish Docker Hub
 on:
   push:
     branches: [ main ]
-    tags: [ 'v*.*.*' ]   # optional: push versioned tags like v1.2.3
+    tags: [ 'v*.*.*' ]   # push versioned tags too (e.g., v0.1.0)
   pull_request:
-    branches: [ main ]   # run tests/build on PRs
+    branches: [ main ]   # run tests/build on PRs (no push)
 
 jobs:
   test:
@@ -25,27 +25,18 @@ jobs:
           if [ ${#SLN[@]} -gt 0 ]; then
             echo "Using solution: ${SLN[0]}"
             dotnet restore "${SLN[0]}"
-            dotnet build "${SLN[0]}" -c Release --no-restore
-            dotnet test  "${SLN[0]}" -c Release --no-build --logger "trx;LogFileName=test-results.trx"
+            dotnet build   "${SLN[0]}" -c Release --no-restore
+            dotnet test    "${SLN[0]}" -c Release --no-build --logger "trx;LogFileName=test-results.trx"
           else
             echo "No .sln found; restoring/building each project"
             PROJS=(**/*.csproj)
-            for p in "${PROJS[@]}"; do
-              echo "Restore $p"
-              dotnet restore "$p"
-            done
-            for p in "${PROJS[@]}"; do
-              echo "Build   $p"
-              dotnet build "$p" -c Release --no-restore
-            done
+            for p in "${PROJS[@]}"; do dotnet restore "$p"; done
+            for p in "${PROJS[@]}"; do dotnet build   "$p" -c Release --no-restore; done
             echo "Discovering test projects"
             TESTPROJS=()
             while IFS= read -r -d '' f; do TESTPROJS+=("$f"); done < <(grep -rlZ "<IsTestProject>true</IsTestProject>" -- **/*.csproj || true)
             if [ ${#TESTPROJS[@]} -gt 0 ]; then
-              for t in "${TESTPROJS[@]}"; do
-                echo "Test    $t"
-                dotnet test "$t" -c Release --no-build --logger "trx;LogFileName=test-results.trx"
-              done
+              for t in "${TESTPROJS[@]}"; do dotnet test "$t" -c Release --no-build --logger "trx;LogFileName=test-results.trx"; done
             else
               echo "No test projects found; skipping dotnet test"
             fi
@@ -60,7 +51,7 @@ jobs:
   publish:
     name: Build & Push Images
     needs: test
-    if: github.event_name == 'push'   # don't push on PRs
+    if: github.event_name == 'push'    # only push on merges/tags
     runs-on: ubuntu-latest
     env:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
@@ -92,11 +83,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Debug repo layout (top 3 levels)
+      - name: Debug repo layout (top 2 levels)
         run: |
           pwd
           ls -la
-          find . -maxdepth 3 -type d -print | sort
+          find . -maxdepth 2 -type d -print | sort
+          echo "Expecting Dockerfiles at the static paths defined in the matrix above."
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -113,63 +105,6 @@ jobs:
         id: vars
         run: echo "IMAGE=${DOCKERHUB_USERNAME}/${{ matrix.image_suffix }}" >> $GITHUB_OUTPUT
 
-      # Resolve correct build context + Dockerfile based on actual repo layout
-      - name: Resolve build paths
-        id: path
-        shell: bash
-        run: |
-          set -euo pipefail
-          NAME="${{ matrix.name }}"
-
-          pick_first_dir() {
-            for d in "$@"; do
-              if [ -d "$d" ]; then echo "$d"; return 0; fi
-            done
-            return 1
-          }
-
-          case "$NAME" in
-            authservice)
-              CTX=$(pick_first_dir "Portal/AuthService/AuthService" "Portal/AuthService" "AuthService")
-              ;;
-            employeeservice)
-              CTX=$(pick_first_dir "Portal/EmployeeService/EmployeeService" "Portal/EmployeeService" "EmployeeService")
-              ;;
-            documentservice)
-              CTX=$(pick_first_dir "Portal/DocumentService/DocumentService" "Portal/DocumentService" "DocumentService")
-              ;;
-            claimservice)
-              CTX=$(pick_first_dir "Portal/ClaimService/ClaimService" "Portal/ClaimService" "ClaimService")
-              ;;
-            apigateway)
-              CTX=$(pick_first_dir "Portal/CentralAPIGateway" "Portal/ApiGateway" "CentralAPIGateway" "ApiGateway")
-              ;;
-            *)
-              echo "Unknown service: $NAME"; exit 1;;
-          esac
-
-          if [ -z "${CTX:-}" ]; then
-            echo "Could not find build context for $NAME. Repo layout:" >&2
-            find . -maxdepth 4 -type d -print >&2
-            exit 1
-          fi
-
-          DF=""
-          for f in "$CTX/Dockerfile" "$(dirname "$CTX")/Dockerfile"; do
-            [ -f "$f" ] && DF="$f" && break
-          done
-
-          if [ -z "$DF" ] ; then
-            echo "No Dockerfile found for $NAME under $CTX (or parent). Repo files:" >&2
-            find "$CTX" -maxdepth 2 -type f -print >&2 || true
-            exit 1
-          fi
-
-          echo "context=$CTX" >> $GITHUB_OUTPUT
-          echo "dockerfile=$DF" >> $GITHUB_OUTPUT
-          echo "Using context: $CTX"
-          echo "Using Dockerfile: $DF"
-
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
@@ -178,8 +113,8 @@ jobs:
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=sha,format=short,prefix=sha-
-            type=ref,event=tag
-            type=ref,event=branch
+            type=ref,event=tag         # v1.2.3 -> :1.2.3
+            type=ref,event=branch      # main -> :main
           labels: |
             org.opencontainers.image.source=${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
@@ -187,8 +122,8 @@ jobs:
       - name: Build & Push
         uses: docker/build-push-action@v6
         with:
-          context: ${{ steps.path.outputs.context }}
-          file: ${{ steps.path.outputs.dockerfile }}
+          context: ${{ matrix.context }}
+          file: ${{ matrix.dockerfile }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
